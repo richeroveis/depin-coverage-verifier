@@ -1,0 +1,240 @@
+{
+  "contract_address": "0xe4C1Fb91972DC5AbdcF2298590dc90c526899F92",
+  "deploy_tx_hash": "0xf776d3e5c26eea9014b460d7c42179331395bed32da238e83b38b457075c0dbb",
+  "transactions": [
+    {
+      "description": "Deploy Contract",
+      "tx_hash": "0xf776d3e5c26eea9014b460d7c42179331395bed32da238e83b38b457075c0dbb",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE"
+    },
+    {
+      "description": "Step 1: Fund Epoch Reward Pool",
+      "tx_hash": "0xd7c56e56e26b8d568a58b3ce28be4b95b72946f0ed369840483901420d24a610",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE"
+    },
+    {
+      "description": "Step 2: Soft-Fail Duplicate Pool Funding",
+      "tx_hash": "0x61467d21e5dc21475f66314b21eb8b47b17e8640df2320736493b3f05a4dc441",
+      "status": "FINALIZED",
+      "result": "6",
+      "votes": null,
+      "last_round": {
+        "round": "0",
+        "leader_index": "0",
+        "votes_committed": "5",
+        "votes_revealed": "5",
+        "appeal_bond": "0",
+        "rotations_left": "3",
+        "result": 6,
+        "round_validators": [
+          "0xee46B9Dc4c860149B1d140840284e5374854e746",
+          "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539",
+          "0x1B490819e040562a5fb40CD64B1c70D4419c38d1",
+          "0xe358f855C96d8E7243836cf986eb037175B9467e",
+          "0x5e880d85a70De78dDEf86236d57c42e73F560615"
+        ],
+        "validator_votes_hash": [
+          "0x99282910d8bcfcbf069109508b5297d03637cfbfa63d3d806726858e537f1b83",
+          "0x518b6ecaeaaecd485fc12e7fdeb58d0f673d3fa5c90cf7b41b24c35b4f94ad3c",
+          "0x4159a763316964977fe22e372e023492182798563c99ce327ac887557496dd4e",
+          "0xb5d15de280ec49ab52750e26bbee3425708ab484af51b1108376d4d5612fe46c",
+          "0x89119eda43dc5f5aed07df91fd8b196e3173d227b32e41a6dbde72dc520fd320"
+        ],
+        "validator_votes": [
+          1,
+          1,
+          1,
+          5,
+          5
+        ],
+        "validator_votes_name": [
+          "AGREE",
+          "AGREE",
+          "AGREE",
+          "IDLE",
+          "IDLE"
+        ]
+      }
+    },
+    {
+      "description": "Step 3: EOA Withdrawal",
+      "tx_hash": "0xbf98bb24ec14717fa15dac9bbf25362bb5a21501351bf10441137de7bb022ae5",
+      "status": "FINALIZED",
+      "result": "6",
+      "votes": null,
+      "last_round": {
+        "round": "0",
+        "leader_index": "0",
+        "votes_committed": "5",
+        "votes_revealed": "5",
+        "appeal_bond": "0",
+        "rotations_left": "3",
+        "result": 6,
+        "round_validators": [
+          "0x534af64FFB6796Bc69aBf4C26c50788F1fFAfe56",
+          "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa",
+          "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3",
+          "0x1B490819e040562a5fb40CD64B1c70D4419c38d1",
+          "0x19a02f95418A6c76091CDA37C4fc542CA82805c9"
+        ],
+        "validator_votes_hash": [
+          "0x3a7d2a6a19d342438134bc13076aa9ae09290b52c54820a50b45dfd9854a2b17",
+          "0x879f43e178467cf55ba413d3b0645c2b09984c717b737edde6437e619293e8a9",
+          "0x26e7c31b7c4755c267a2f3d176fba5dec582bea2817efd1d5c5beba30fc48f07",
+          "0xfcc45f9670b0010fe7065b5be1a977586ea9588702e65ed57b3a5f8bf83eb3be",
+          "0x2cbef3d4a4122848ecdc7bc05038f3dca7806cd663837bd0df14b43e8c806aa6"
+        ],
+        "validator_votes": [
+          1,
+          1,
+          5,
+          5,
+          1
+        ],
+        "validator_votes_name": [
+          "AGREE",
+          "AGREE",
+          "IDLE",
+          "IDLE",
+          "AGREE"
+        ]
+      }
+    },
+    {
+      "description": "Step 4: Operator Node Registration",
+      "tx_hash": "0xb9e2c44ddba3c1633d43462e45bc748c15e8a0c6221bf317b27c23b0783905a1",
+      "status": "FINALIZED",
+      "result": "6",
+      "votes": null,
+      "last_round": {
+        "round": "0",
+        "leader_index": "0",
+        "votes_committed": "5",
+        "votes_revealed": "5",
+        "appeal_bond": "0",
+        "rotations_left": "3",
+        "result": 6,
+        "round_validators": [
+          "0xe358f855C96d8E7243836cf986eb037175B9467e",
+          "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0",
+          "0x1B490819e040562a5fb40CD64B1c70D4419c38d1",
+          "0x19a02f95418A6c76091CDA37C4fc542CA82805c9",
+          "0x6DC61b906F74F44612c5545b0b79486133B3556d"
+        ],
+        "validator_votes_hash": [
+          "0x3f6ce2fff2b38d58f0f54f21e32b295507159703be4de7aec30fc5e7544e3e62",
+          "0xb4b4c5fe9840f836bb8aff54e914be4fdbe9c8310920bf5d549fcc34777d41a3",
+          "0x7912cd3e81800be19a0fa7396f303ecdfe62001812febf33ef91518616c112fe",
+          "0x64c85750dbcfabe00e53e67f62c99335d1e05c2b827f1e4bb02272d095b54064",
+          "0x5234c44e416407d0d7193eef5255369d253b7a0a175df8033b3716c835edda31"
+        ],
+        "validator_votes": [
+          1,
+          1,
+          5,
+          5,
+          1
+        ],
+        "validator_votes_name": [
+          "AGREE",
+          "AGREE",
+          "IDLE",
+          "IDLE",
+          "AGREE"
+        ]
+      }
+    },
+    {
+      "description": "Step 5: Live Validator Telemetry Consensus & Reward Settlement",
+      "tx_hash": "0x2554cdd86a4d197cd256b55e13cb4e729892e3fb99dd0e019182d5cfa438fc3c",
+      "status": "FINALIZED",
+      "result": "6",
+      "votes": null,
+      "last_round": {
+        "round": "0",
+        "leader_index": "0",
+        "votes_committed": "5",
+        "votes_revealed": "5",
+        "appeal_bond": "0",
+        "rotations_left": "3",
+        "result": 6,
+        "round_validators": [
+          "0x19a02f95418A6c76091CDA37C4fc542CA82805c9",
+          "0x5744305308D62592B7De585e1999c4Ea51E03C29",
+          "0x1B490819e040562a5fb40CD64B1c70D4419c38d1",
+          "0x23A15A452F19D1B616276fedC5B8B51d69082959",
+          "0x6fe9DE3d0adc76D6416A13CD8107aaE49A3CF98F"
+        ],
+        "validator_votes_hash": [
+          "0x1e7b7fe0c7791c42b32b5ff24c01b77b9dbf47d540db963302a47866a749393e",
+          "0x16b4ea375525c94f4db0ef62d734058ed9584ec4961d347d468c30e0d28ebd05",
+          "0x25ebe4378e9dbdbacf682b8b1347c1efac1c4114cfa859c973806d33b665bb97",
+          "0x60065a39d6dc67b63b14183a54fcb4ff04dfd5a157ddfe360530ccb2cbda031e",
+          "0xf61a6c855490871bb8de4c01e83ccc8a367e06aba46abd5bc4ffd538a7d4ed7a"
+        ],
+        "validator_votes": [
+          5,
+          1,
+          1,
+          5,
+          1
+        ],
+        "validator_votes_name": [
+          "IDLE",
+          "AGREE",
+          "AGREE",
+          "IDLE",
+          "AGREE"
+        ]
+      }
+    }
+  ],
+  "final_state": {
+    "accounting": {
+      "active_node_bonds": 1000,
+      "invariant_holds": true,
+      "native_custody_balance": 51000,
+      "residue_wei": 0,
+      "sponsor_reward_pool": 25000,
+      "total_refundable_balances": 25000
+    },
+    "node": {
+      "exists": true,
+      "hardware_id": "HW-DEPIN-001",
+      "last_verified_epoch": 1,
+      "lifetime_rewards_wei": 25000,
+      "lifetime_slashed_wei": 0,
+      "operator": "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+      "region_code": "US-WEST",
+      "registered_at_ts": 1795182027,
+      "staked_bond_wei": 1000,
+      "status": "VERIFIED",
+      "target_uptime_bps": 9500,
+      "telemetry_endpoint_url": "https://raw.githubusercontent.com/richeroveis/depin-coverage-verifier/main/telemetry/node_001.json"
+    },
+    "epoch": {
+      "end_time_ts": 1795180389,
+      "epoch_id": 1,
+      "exists": true,
+      "initial_pool_wei": 50000,
+      "reward_pool_wei": 25000,
+      "settled": false,
+      "settled_node_count": 1,
+      "sponsor": "0x154a452b0755EE812014C1405B15D905BA06f9c7",
+      "start_time_ts": 1795180329
+    },
+    "verification_record": {
+      "coverage_band": "OPTIMAL_RELAY_BONUS",
+      "epoch_id": 1,
+      "exists": true,
+      "node_id": "node-alpha-001",
+      "observed_uptime_bps": 9750,
+      "reward_awarded_wei": 25000,
+      "settled_at_ts": 1795182065,
+      "slash_applied_wei": 0,
+      "telemetry_verified": true
+    }
+  }
+}
