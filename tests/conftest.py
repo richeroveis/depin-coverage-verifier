@@ -89,3 +89,10 @@ def _patched_refresh_gl_message(self):
             gl.message_raw['datetime'] = self._datetime
 
 vmm.VMContext._refresh_gl_message = _patched_refresh_gl_message
+
+import pytest
+
+@pytest.fixture(autouse=True)
+def _set_deterministic_baseline_clock(direct_vm):
+    direct_vm.warp("2026-11-20T10:00:00Z")
+
