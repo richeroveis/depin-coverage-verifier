@@ -6,7 +6,7 @@
 - **Network**: GenLayer Studionet
 - **RPC Endpoint**: `https://studio.genlayer.com/api`
 - **Chain ID**: 61999
-- **Deployed Source Hash (LF SHA-256)**: `82b4507b9a715fbc79a781b41f71f54460f384a292d3f6629910d6e66bf23f03`
+- **Deployed Source Hash (LF SHA-256)**: `7e0e03262203cdf9c12060bbaadf21850b91dbc0e138b4198255aacf9ce0b457`
 - **Pinned Runner**: `py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6`
 
 ## Participating Multi-Signer Accounts

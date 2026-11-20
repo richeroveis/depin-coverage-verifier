@@ -43,7 +43,7 @@ To eliminate validator floating-point divergence and non-determinism during live
 - **RPC URL**: `https://studio.genlayer.com/api`
 - **Contract Address**: `0xe4C1Fb91972DC5AbdcF2298590dc90c526899F92`
 - **Deploy Transaction**: `0xf776d3e5c26eea9014b460d7c42179331395bed32da238e83b38b457075c0dbb`
-- **Source Code Hash (LF SHA-256)**: `82b4507b9a715fbc79a781b41f71f54460f384a292d3f6629910d6e66bf23f03`
+- **Source Code Hash (LF SHA-256)**: `7e0e03262203cdf9c12060bbaadf21850b91dbc0e138b4198255aacf9ce0b457`
 - **Git Release Tag**: `studionet-v1`
 
 ### Multi-Signer Accounts
